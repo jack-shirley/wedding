@@ -1,12 +1,86 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#eeeae2">
+  <meta name="description" content="Celebrate the wedding of Kyra Rojas and Jack Shirley in Telluride, Colorado on August 4, 2027.">
+  <title>Kyra & Jack | August 4, 2027</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Italiana&family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
 </head>
 <body>
-    <h1>Hello World!</h1>
-    <p>My GitHub Pages website is working.</p>
+  <header class="site-header">
+    <a href="#home" class="monogram" aria-label="Back to top">K<span>✳</span>J</a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Toggle navigation">MENU <span>☰</span></button>
+    <nav id="main-nav" aria-label="Main navigation">
+      <a href="#story">OUR STORY</a><a href="#details">THE DAY</a><a href="#travel">TRAVEL</a><a href="#faq">FAQ</a><a href="#rsvp" class="nav-rsvp">RSVP ↗</a>
+    </nav>
+  </header>
+  <main>
+    <section id="home" class="hero">
+      <div class="eyebrow spread"><span>THE WEDDING OF</span><span>EST. 2027</span></div>
+      <h1>Kyra <em>&</em>   Jack</h1>
+      <p class="hero-script">Save our Date</p>
+      <div class="hero-photo flower-frame"><img src="assets/engagement.jpg" alt="Kyra and Jack together" onerror="this.style.display='none';this.parentElement.classList.add('photo-missing')"><span class="placeholder">YOUR PHOTO HERE<br><small>Replace assets/engagement.jpg</small></span></div>
+      <div class="names-line"><span>KYRA ROJAS</span><span class="star">✳</span><span>JACK SHIRLEY</span></div>
+      <p class="hero-date">AUGUST 4, 2027<br>TELLURIDE, COLORADO</p>
+      <p class="script subscript">Invitation to Follow</p>
+      <a href="#story" class="scroll-cue">SCROLL TO EXPLORE <span>↓</span></a>
+    </section>
+    <section id="story" class="story section-pad">
+      <div class="section-number">01 / OUR STORY</div>
+      <div class="story-grid">
+        <div><p class="overline">A LITTLE ABOUT US</p><h2>Every love story<br>has a <i>beginning.</i></h2><p class="body-copy">From the everyday moments to the unforgettable adventures, we're so grateful for the story we're writing together. And now, we can't wait to celebrate the next chapter with our favorite people.</p><p class="body-copy muted">More of our story coming soon.</p></div>
+        <div class="story-art"><div class="outline-flower"><span>TOGETHER<br>IS A BEAUTIFUL<br>PLACE TO BE</span></div><span class="little-star">✳</span></div>
+      </div>
+    </section>
+    <section id="details" class="details section-pad">
+      <div class="section-number">02 / THE CELEBRATION</div>
+      <p class="overline centered">JOYFULLY INVITE YOU TO CELEBRATE</p>
+      <h2 class="details-title">Meet us in<br><i>the mountains.</i></h2>
+      <div class="date-feature"><span>WEDNESDAY</span><strong>04</strong><span>AUGUST<br>2027</span></div>
+      <p class="details-place">TELLURIDE, COLORADO</p>
+      <p class="details-note">Ceremony, reception, and schedule details to follow.</p>
+      <div class="divider-star">✳</div>
+    </section>
+    <section class="mountains section-pad" aria-label="Telluride inspired artwork">
+      <div class="topo" aria-hidden="true"></div>
+      <p class="overline">37°56′ N · 107°49′ W</p>
+      <h2>High altitude.<br><i>Higher love.</i></h2>
+      <p>THE SAN JUAN MOUNTAINS · COLORADO</p>
+    </section>
+    <section id="travel" class="travel section-pad">
+      <div class="section-number">03 / GETTING THERE</div>
+      <div class="travel-heading"><h2>A little trip<br>to <i>Telluride.</i></h2><p>We're so excited to celebrate with you in one of our favorite mountain settings. Here are a few things to know as you plan your visit.</p></div>
+      <div class="info-grid">
+        <article><span>01 —</span><h3>Getting Here</h3><p>Telluride is nestled in southwest Colorado. Montrose Regional Airport (MTJ) is a common arrival option, about 65 miles away.</p></article>
+        <article><span>02 —</span><h3>Where to Stay</h3><p>Telluride and nearby Mountain Village offer a range of lodging options. Specific recommendations are coming soon.</p></article>
+        <article><span>03 —</span><h3>What to Expect</h3><p>August days are often mild and sunny, with cooler evenings. Pack a layer and comfortable shoes for mountain terrain.</p></article>
+      </div>
+    </section>
+    <section id="faq" class="faq section-pad">
+      <div class="section-number">04 / GOOD TO KNOW</div>
+      <h2>Questions <i>& answers.</i></h2>
+      <div class="faq-list">
+        <details><summary>When is the wedding?<span>+</span></summary><p>Wednesday, August 4, 2027.</p></details>
+        <details><summary>Where is the wedding?<span>+</span></summary><p>Telluride, Colorado. The exact venue and directions will be shared with the formal invitation.</p></details>
+        <details><summary>What should I wear?<span>+</span></summary><p>Dress code details are coming soon. We recommend bringing a layer for the cooler mountain evenings.</p></details>
+        <details><summary>When should I RSVP?<span>+</span></summary><p>We'll share RSVP instructions and a deadline with the formal invitation.</p></details>
+      </div>
+    </section>
+    <section id="rsvp" class="rsvp section-pad">
+      <span class="big-star">✳</span>
+      <p class="overline">WE CAN'T WAIT TO CELEBRATE</p>
+      <h2>See you <i>there.</i></h2>
+      <p>August 4, 2027 · Telluride, Colorado</p>
+      <div class="rsvp-notice">FORMAL INVITATION & RSVP DETAILS TO FOLLOW</div>
+      <p class="script">With love, Kyra & Jack</p>
+    </section>
+  </main>
+  <footer><span>K ✳ J</span><span>MADE WITH LOVE · 2027</span><a href="#home">BACK TO TOP ↑</a></footer>
 </body>
 </html>
